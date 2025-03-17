@@ -9,9 +9,12 @@ I've implemented and evaluated four different models:
 3. LSTM Model with Word2Vec Embeddings
 4. Transformer Model
 
+To do so I used the following libraries; torch, numpy, matplotlib, transformers.
+
 # Results & Comparisons
 ![image](https://github.com/user-attachments/assets/ee48636b-2ff7-4981-ba99-29f9789c5bd7)
-
+* Full results can be seen in the report file.
+  
 # Key Insights
 1. One-Hot Encoding Performs Poorly - Since one-hot encoding doesn’t capture word relationships, it fails on unseen words and negations.
 2. Word2Vec Improves Performance - Pre-trained embeddings allow the model to generalize better by capturing word meanings.
