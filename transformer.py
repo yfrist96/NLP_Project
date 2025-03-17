@@ -17,7 +17,7 @@ sys.path.append('/content/drive/My Drive/NLP_Ex4')
 
 import data_loader
 
-from exercise_blanks import *
+from NLP_Project import *
 
 SEQ_LEN = 52
 W2V_EMBEDDING_DIM = 300
