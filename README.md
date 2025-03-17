@@ -19,4 +19,8 @@ I've implemented and evaluated four different models:
 4. Transformers Achieve the Best Accuracy - Handles long-range dependencies and understands context more effectively than RNN-based models.
    
 # Installation and Setup
-
+1. Open Google Drive and create a new folder named: NLP_Project
+2. Place the following files inside the NLP_Project folder: stanfordSentimentTreebank, data_loader.py
+3. Open Google Colab Notebooks: For Log-Linear and LSTM Models open project_models.ipynb and for the Transformer Model open transformer.ipynb
+4. Once setup is complete, you can run the notebook cells to train and evaluate the models.
+5. Alternatively, if you prefer running the models from Python I have provided the respective files.
